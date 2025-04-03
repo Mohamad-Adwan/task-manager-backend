@@ -1,4 +1,11 @@
 # task-manager-backend
+Add .env file And add this 
+PORT=5000
+DATABASE_URL=mongodb://localhost:27017/task-manager
+JWT_SECRET=your_jwt_secret_key
+JWT_EXPIRATION=1h
+
+
 Install and Set Up MongoDB Locally
 Start Your Server
 node server.js
